@@ -298,12 +298,64 @@ p{
 /*--------------------------*/
 /*  aboutme section ended  */
 /*------------------------*/
+
+
+/*--------------------------*/
+/*  project section added  */
+/*------------------------*/
+
+
+
+.project_container{
+    row-gap: 1rem;
+    display: flex;    
+    border-spacing: 10px;
+    
+    
+}
+
+.project_img{
+    box-shadow: 1 4px 25px rgb(0,0,0,0.575);
+    border-radius: 0.5rem;
+    overflow: hidden;    
+
+}
+
+
+.project_img img{
+    transition: 1s;
+    cursor: pointer;
+    width: 80%;
+    height: 80%;
+    /*padding: 2rem;*/
+}
+
+
+
+.project_img img:hover{
+    transform: scale(1.1);
+}
+
+/*@media screen and (min-width: 768px){
+
+    .project_container{
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2,1fr);
+        column-gap: 2rem;
+      }
+}*/
+
+
+/*--------------------------*/
+/*  project section ended  */
+/*------------------------*/
+
 /*--------------------------*/
 /*  my-skills section added*/
 /*------------------------*/
 
-.my-skills h1{
-    margin-bottom: 100px;
+.text-left{
+    margin-bottom: 50px;
     text-align: center;
     color: var(--white);
 
